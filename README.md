@@ -80,9 +80,9 @@ Dataset dibagi menjadi *training set* dan *testing set*. Evaluasi model mengguna
 
 ---
 
-## 📈 Hasil Evaluasi Model
+## Hasil Evaluasi Model
 
-### 🔹 Skenario 1: Menggunakan Seluruh Fitur
+### Skenario 1: Menggunakan Seluruh Fitur
 
 #### Random Forest
 
