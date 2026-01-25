@@ -4,13 +4,9 @@
 
 Proyek ini bertujuan membangun model *machine learning* untuk memprediksi risiko diabetes pada pasien berdasarkan indikator medis. Fokus utama proyek adalah penerapan *end-to-end data science workflow*, mulai dari eksplorasi data, *data preprocessing*, hingga evaluasi dan perbandingan performa beberapa model klasifikasi.
 
-Dataset yang digunakan adalah Pima Indians Dataset yang berasal dari Kaggle.
-
----
-
 ## Deskripsi Dataset
 
-Dataset yang digunakan adalah **Pima Indians Diabetes Dataset** (`diabetes.csv`). Dataset ini berisi data medis pasien wanita keturunan Pima Indian dengan karakteristik sebagai berikut:
+Dataset yang digunakan adalah **Pima Indians Diabetes Dataset** (`diabetes.csv`) dari Kaggle. Dataset ini berisi data medis pasien wanita keturunan Pima Indian dengan karakteristik sebagai berikut:
 
 ### Fitur Input
 
@@ -29,8 +25,6 @@ Dataset yang digunakan adalah **Pima Indians Diabetes Dataset** (`diabetes.csv`)
 
   * `0` : Tidak Diabetes
   * `1` : Diabetes
-
----
 
 ## Tahapan Preprocessing Data
 
@@ -51,8 +45,6 @@ Outlier dideteksi menggunakan metode **Interquartile Range (IQR)**. Nilai ekstre
 
 Beberapa fitur dengan distribusi miring (*skewed distribution*) ditangani menggunakan **log transformation** untuk mendekati distribusi normal dan meningkatkan stabilitas model.
 
----
-
 ## Model dan Optimasi
 
 Model yang digunakan merupakan model klasifikasi biner dengan fokus pada performa prediksi kelas diabetes.
@@ -66,8 +58,6 @@ Model yang digunakan merupakan model klasifikasi biner dengan fokus pada perform
 
 * **Hyperparameter tuning** dilakukan menggunakan `GridSearchCV`
 * Evaluasi dilakukan pada data validasi untuk memilih kombinasi parameter terbaik
-
----
 
 ## Skenario Pengujian & Metrik Evaluasi
 
@@ -123,8 +113,6 @@ precision    recall  f1-score   support
 accuracy                           0.72       154
 ```
 
----
-
 ### Skenario 2: Menggunakan Top 5 Fitur Terpenting
 
 #### XGBoost
@@ -164,8 +152,6 @@ weighted avg       0.71      0.72      0.71       154
 
 Hasil menunjukkan bahwa reduksi fitur tidak memberikan peningkatan performa signifikan dibandingkan penggunaan seluruh fitur.
 
----
-
 ## Analisis Keberhasilan & Tujuan Bisnis
 
 ### Pencapaian Teknis
@@ -177,8 +163,6 @@ Hasil menunjukkan bahwa reduksi fitur tidak memberikan peningkatan performa sign
 ### Nilai Bisnis
 
 Dalam konteks medis, kesalahan *false negative* sangat berisiko. Model ini dapat digunakan sebagai **alat skrining awal** untuk mengidentifikasi pasien berisiko tinggi, namun tetap memerlukan validasi lanjutan oleh tenaga medis profesional.
-
----
 
 ## Rekomendasi Pengembangan Selanjutnya
 
@@ -197,7 +181,5 @@ Dalam konteks medis, kesalahan *false negative* sangat berisiko. Model ini dapat
 4. **Evaluasi Tambahan**
 
    * ROC-AUC dan Precision-Recall Curve untuk analisis lebih mendalam
-
----
 
 
