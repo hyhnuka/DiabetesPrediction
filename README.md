@@ -1,10 +1,10 @@
-# Proyek Prediksi Diabetes (Pima Indians Dataset)
+# Prediksi Diabetes 
 
 ## Deskripsi Singkat
 
-Proyek ini bertujuan membangun model *machine learning* untuk memprediksi risiko diabetes pada pasien berdasarkan indikator medis. Fokus utama proyek adalah penerapan *end-to-end data science workflow*, mulai dari eksplorasi data, *data preprocessing* yang ketat, hingga evaluasi dan perbandingan performa beberapa model klasifikasi.
+Proyek ini bertujuan membangun model *machine learning* untuk memprediksi risiko diabetes pada pasien berdasarkan indikator medis. Fokus utama proyek adalah penerapan *end-to-end data science workflow*, mulai dari eksplorasi data, *data preprocessing*, hingga evaluasi dan perbandingan performa beberapa model klasifikasi.
 
-Dataset yang digunakan merupakan dataset medis populer sehingga proyek ini juga berfungsi sebagai studi kasus penerapan *best practice* dalam pemodelan data kesehatan.
+Dataset yang digunakan adalah Pima Indians Dataset yang berasal dari Kaggle.
 
 ---
 
